@@ -2,12 +2,14 @@
     var a = 'wribhu';
 
     {
-        var a = 'sayani'
+        let a = 'sayani'
         console.log(a)
     }
     console.log(a)
     
 }
+
+console.log(a)
 
 // let : scope specific
 // var : global
