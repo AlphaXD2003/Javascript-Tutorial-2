@@ -65,6 +65,6 @@ console.log(newObj)
    console.log(Object.entries(object1))
    console.log(object1.hasOwnProperty('a'))
    console.log(object1.hasOwnProperty('d'))
-
+    const a = 20
    const {a : a1 , b, c,} = object1
    console.log(a1)
