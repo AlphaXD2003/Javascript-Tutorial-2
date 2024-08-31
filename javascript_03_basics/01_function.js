@@ -40,6 +40,16 @@ function sum(a, ...c) {
 // console.log(sum(3, 3));
 // console.log(sum(2, 3, 4, 5));
 // console.log(sum(2, 3, 4, 5));
-sum(2, 3, 4, 5);
-sum(2, 3, 4, 5, 6);
-sum(2, 3, 4, 5, 6, 7);
+// sum(2, 3, 4, 5);
+// sum(2, 3, 4, 5, 6);
+// sum(2, 3, 4, 5, 6, 7);
+
+function randomParameter(a) {
+  console.log(a);
+}
+
+randomParameter({
+  name: "wribhu",
+  age: 20,
+});
+randomParameter(20);
