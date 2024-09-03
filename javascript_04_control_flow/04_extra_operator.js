@@ -61,3 +61,6 @@ console.log(value)
 
 value = null || 20 || 210
 console.log(value)
+
+console.log(3 | 5)
+console.log(3 & 5)
